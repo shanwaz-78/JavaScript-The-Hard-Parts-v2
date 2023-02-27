@@ -37,3 +37,15 @@ const output =multiplyBy2(num);//it command(parenthesis)
 // assign function call(multiplyBy2(num))
 // only store values(that's fixed and final things)can't store a go do some work
 const newOutput =multiplyBy2(10);
+
+
+// const xhttp = new XMLHttpRequest();
+// xhttp.onreadystatechange = function () {
+//     if (this.readyState == 4 && this.status == 200) {
+//         console.log(this.response)
+//     }
+// }
+
+
+// xhttp.open('GET','../JavaScript Principles/Thread of Exicution.js',true);
+// xhttp.send();
