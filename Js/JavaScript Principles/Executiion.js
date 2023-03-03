@@ -15,20 +15,20 @@
 const name = 'kyle';
 function a() {
     const name = 'kyle';
-    debugger;
+    // debugger;
     b();
     console.log('This is last console');
 }
 
 function b() {
-    debugger;
+    // debugger;
     console.log('This is first msg')
     c()
 }
 
 function c() {
-    debugger;
+    // debugger;
     console.log('This is 2nd msg')
 }
-debugger;
-a();    
+// debugger;
+a();
