@@ -45,4 +45,4 @@ console.log(undefined > 0)  // false, because the undefined converted into NAN a
 console.log(undefined < 0) // false ,because the undefined converted into NAN and when we compare a NAN to anything it will give false always;
 console.log(undefined == 0) // false, because the undefined converted into NAN and when we compare a NAN to anything it will give false always;
 
-console.log("2" > "12") // true becuase it will find the first string charactor wise;
+console.log("2" > "12") // true becuase it will find the first string charactor wise;d
