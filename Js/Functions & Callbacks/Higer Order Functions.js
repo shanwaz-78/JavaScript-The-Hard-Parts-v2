@@ -8,9 +8,9 @@ const interviewQuestios = (name) => {
   }if (name === 'suzy') {
     return function (topic) {
       console.log(`Hello ${name}. What is ${topic}. Please Explain us.`);
-    }
-  }
-}
+    };
+  };
+};
 
 // const cand1 = interviewQuestios('kyle')('UI')// ask only one question;
 const cand1 = interviewQuestios('kyle');
@@ -20,4 +20,4 @@ cand1('Front End Developer');
 
 const cand2 = interviewQuestios('suzy');
 cand2('Full Stack Developer'); // ask multiple qustions to the second user;
-cand2('Data Base Engineer');
+cand2('Data Base Engineer');  
