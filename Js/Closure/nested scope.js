@@ -19,7 +19,7 @@ outer();
 
 // The stored variable is then assigned the inner2 function that was returned by outer2.
 
-// Finally, when stored(22) is called, the inner2 function is executed with an age argument of 22. The inner2 function has access to the teacher variable because of the closure that was created when the outer2 function returned the inner2 function. Specifically, the inner2 function has a reference to the teacher variable that was created in the outer2 function's scope, and can access that variable even though it is no longer in scope.
+// Finally, when stored(22) is called, the inner2 function is executed with an age argument of 22. The inner2 function has access to the teacher variable because of the closure that was created when the outer2 function re/wp-content/uploads/2022/08/P5.pngturned the inner2 function. Specifically, the inner2 function has a reference to the teacher variable that was created in the outer2 function's scope, and can access that variable even though it is no longer in scope.
 
 
 function outer2() {
@@ -31,4 +31,4 @@ function outer2() {
   return inner2;
 }
 const stored = outer2();
-stored(22);
+stored(22);    
