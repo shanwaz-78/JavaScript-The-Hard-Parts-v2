@@ -4,3 +4,4 @@
 ### [Functions & Callbacks](./Js/Functions%20%26%20Callbacks/)
 ### [Closure](./Js/Closure/)
 ### [Asynchronous JavaScript](./Js/Asyncronous%20JavaScript/)
+### [Promises](./Js/Promises/)
