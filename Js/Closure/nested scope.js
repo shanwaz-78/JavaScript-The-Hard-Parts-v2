@@ -31,4 +31,7 @@ function outer2() {
   return inner2;
 }
 const stored = outer2();
-stored(22);  
+stored(22); 
+
+const futureData = fetch('https://jsonplaceholder.typicode.com/posts');
+futureData.then(data => console.log(data))
