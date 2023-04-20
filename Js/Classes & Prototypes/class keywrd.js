@@ -10,5 +10,5 @@ const obj = new scStudent("John", 19);
 console.log(obj);
 
 class secondStudent extends scStudent {}
-const user = new secondStudent("Sentece", 20);
+const user = new secondStudent("Sentence", 20);
 console.log(user);
