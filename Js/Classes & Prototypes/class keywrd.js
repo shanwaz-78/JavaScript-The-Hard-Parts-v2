@@ -5,8 +5,8 @@ class scStudent {
     this.name = name;
     this.age = age;
   }
-  info(){
-    const data = 'Hello';
+  info() {
+    const data = "Hello";
     console.log(data);
   }
 }
@@ -15,5 +15,5 @@ console.log(obj);
 
 class secondStudent extends scStudent {}
 const user = new secondStudent("Sentence", 20);
-console.log(user);
-    
+console.log(user)
+
