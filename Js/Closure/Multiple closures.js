@@ -16,11 +16,8 @@ function outer() {
 }
 
 const closures = outer();
-
 closures.func1(); // Output: 10
-
 closures.func2();
-
 closures.func1(); // Output: 11
 
 // In this example, the outer() function returns an object with two methods: func1() and func2(). func1() is a closure that accesses the x variable from the outer scope and logs its value. func2() is also a closure that increments the x variable.
